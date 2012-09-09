@@ -1,3 +1,4 @@
+# test submit is ok?
 # remove files
 run "rm README"
 run "rm public/index.html"
