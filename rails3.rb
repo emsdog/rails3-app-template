@@ -1,5 +1,5 @@
 #encoding: utf-8
-#####################################################################
+######################################################################
 #前置条件：执行 rails new myapp -m https://raw.github.com/RailsApps/rails-composer/master/composer.rb -T 初始化基于devise cancan bootstrap 的基础程序
 #程序功能：为上述程序增加一些定制化的功能，践行DRY的ruby哲学。
 # 1，增加一些定制化的gem [acts_as_tenant attr_encrypted acts_as_spider]
@@ -8,7 +8,7 @@
 #     1）向User模型中增加act_as_tenant
 #     2) 调用bootstrap:themed Users -f 强制更新前台使用的主题样式
 #
-#####################################################################
+######################################################################
 # remove files
 run "rm README"
 run "rm public/index.html"
